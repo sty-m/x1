@@ -1,10 +1,9 @@
 .controller.custom {
-    background: url(https://sty-m.github.io/x/assets/base.png) no-repeat center;
-    background-size: contain;
-    height: 955px;
-    width: 1536px;
+    background: url(https://sty-m.github.io/x/assets/base.png) no-repeat top center;
+    background-size: 750px 466px;
+    height: 466px;
+    width: 750px;
     position: relative;
-    margin-top: 500px;
 }
 
 .custom .triggers,
@@ -16,8 +15,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1536px;
-    height: 955px;
+    width: 750px;
+    height: 466px;
 }
 
 .custom .trigger,
@@ -30,9 +29,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1536px;
-    height: 955px;
-    background-size: 1536px 955px;
+    width: 750px;
+    height: 466px;
+    background-size: 750px 466px;
     background-repeat: no-repeat;
     background-position: top left;
     opacity: 0;
