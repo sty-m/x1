@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.controller.custom.half {
+    margin-top: 0px;
+}
+
 .custom .triggers,
 .custom .bumpers,
 .custom .abxy,
