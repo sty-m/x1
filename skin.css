@@ -4,8 +4,7 @@
     height: 955px;
     width: 1536px;
     position: relative;
-    transform: scale(0.5);
-    transform-origin: top left;
+    margin-top: 500px;
 }
 
 .custom .triggers,
