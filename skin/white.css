@@ -1,0 +1,144 @@
+.controller.custom {
+    background: url(https://sty-m.github.io/x/assets/white/base.png) no-repeat top center;
+    background-size: 750px 466px;
+    height: 466px;
+    width: 750px;
+    position: relative;
+}
+
+.controller.custom.half {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.custom .triggers,
+.custom .bumpers,
+.custom .abxy,
+.custom .sticks,
+.custom .dpad,
+.custom .arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 466px;
+}
+
+.custom .trigger,
+.custom .bumper,
+.custom .button,
+.custom .stick,
+.custom .face,
+.custom .back,
+.custom .start {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 466px;
+    background-size: 750px 466px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    opacity: 0;
+}
+
+.custom .trigger.pressed,
+.custom .bumper.pressed,
+.custom .button.pressed,
+.custom .stick.pressed,
+.custom .face.pressed,
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
+
+/* Triggers */
+.custom .trigger.left {
+    background-image: url(https://sty-m.github.io/x/assets/white/lt.png);
+}
+
+.custom .trigger.right {
+    background-image: url(https://sty-m.github.io/x/assets/white/rt.png);
+}
+
+/* Bumpers */
+.custom .bumper.left {
+    background-image: url(https://sty-m.github.io/x/assets/white/lb.png);
+}
+
+.custom .bumper.right {
+    background-image: url(https://sty-m.github.io/x/assets/white/rb.png);
+}
+
+/* ABXY */
+.custom .a {
+    background-image: url(https://sty-m.github.io/x/assets/white/a.png);
+}
+
+.custom .b {
+    background-image: url(https://sty-m.github.io/x/assets/white/b.png);
+}
+
+.custom .x {
+    background-image: url(https://sty-m.github.io/x/assets/white/x.png);
+}
+
+.custom .y {
+    background-image: url(https://sty-m.github.io/x/assets/white/y.png);
+}
+
+/* Sticks */
+.custom .stick.left {
+    background-image: url(https://sty-m.github.io/x/assets/white/ls.png);
+    opacity: 1;
+}
+
+.custom .stick.right {
+    background-image: url(https://sty-m.github.io/x/assets/white/rs.png);
+    opacity: 1;
+}
+
+.custom .stick.pressed.left {
+    background-image: url(https://sty-m.github.io/x/assets/white/l3.png);
+}
+
+.custom .stick.pressed.right {
+    background-image: url(https://sty-m.github.io/x/assets/white/r3.png);
+}
+
+/* Dpad */
+.custom .face.up {
+    background-image: url(https://sty-m.github.io/x/assets/white/up.png);
+}
+
+.custom .face.down {
+    background-image: url(https://sty-m.github.io/x/assets/white/down.png);
+}
+
+.custom .face.left {
+    background-image: url(https://sty-m.github.io/x/assets/white/left.png);
+}
+
+.custom .face.right {
+    background-image: url(https://sty-m.github.io/x/assets/white/right.png);
+}
+
+/* Back/Start */
+.custom .back {
+    background-image: url(https://sty-m.github.io/x/assets/white/select.png);
+    float: none;
+}
+
+.custom .start {
+    background-image: url(https://sty-m.github.io/x/assets/white/start.png);
+    float: none;
+}
+
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
